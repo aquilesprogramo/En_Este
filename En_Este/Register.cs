@@ -34,7 +34,7 @@ namespace Arkanoid
         private void user()
         {
             
-            var c = Conexion.ExecuteQuery($"select nombre_usuario from usuario");
+            var c = Conexion.ExecuteQuery($"select nombre from usuario");
 
             foreach (DataRow d in c.Rows) // Recorrer todos los nombres en la base de datos.
             {
@@ -51,7 +51,7 @@ namespace Arkanoid
             {
                 User.nombre = textBox1.Text;
 
-                Conexion.ExecuteNonQuery($"insert into usuario values ('{User.nombre}','{'0'}')"); 
+                Conexion.ExecuteNonQuery($"insert into usuario values ('{User.nombre}')"); 
                 MessageBox.Show("Se ha registrado"); 
                 Hide();
                 

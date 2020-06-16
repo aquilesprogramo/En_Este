@@ -79,7 +79,7 @@ namespace Arkanoid
                     timer1.Stop();
                     MessageBox.Show("Tu record fue de: "+score);
                     
-                    Conexion.ExecuteNonQuery($"update usuario set puntuacion = {score} where nombre_usuario = '{User.nombre}'");
+                    Conexion.ExecuteNonQuery($"insert into record(nombre_usuario, puntaje) values('{User.nombre}',{score})");
                     Close();
                 }
             }
