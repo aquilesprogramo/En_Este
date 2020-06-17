@@ -51,13 +51,25 @@ namespace Arkanoid
             
             foreach (Control s in Controls)
             {
+                
+                if (s is Label && (string)s.Tag == "block3")
+                {
+                    if (ball.Bounds.IntersectsWith(s.Bounds))
+                    {
+                        x = -x;
+                        Controls.Remove(s);
+                    }
+                }
+                
                 if (s is Label && (string)s.Tag == "block")
                 {
                     if (ball.Bounds.IntersectsWith(s.Bounds))
                     {
+                        
                         score += 2;
                         x = -x;
                         Controls.Remove(s);
+                        
                     }
                 }
                 if (s is Label && (string)s.Tag == "block2")
@@ -69,6 +81,8 @@ namespace Arkanoid
                         Controls.Remove(s);
                     }
                 }
+                
+                
             }
             
             if (ball.Bottom > ClientSize.Height || score == ScoreMax)

@@ -40,25 +40,25 @@ namespace Arkanoid
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(31, 207);
+            this.progressBar1.Location = new System.Drawing.Point(27, 179);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(367, 37);
+            this.progressBar1.Size = new System.Drawing.Size(315, 32);
             this.progressBar1.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(77, 9);
+            this.label1.Location = new System.Drawing.Point(66, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 52);
+            this.label1.Size = new System.Drawing.Size(225, 45);
             this.label1.TabIndex = 1;
             this.label1.Text = "ARKANOID";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(77, 162);
+            this.label2.Location = new System.Drawing.Point(66, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(262, 29);
+            this.label2.Size = new System.Drawing.Size(225, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Cargando ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -69,10 +69,10 @@ namespace Arkanoid
             // 
             // Loading
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(436, 269);
+            this.ClientSize = new System.Drawing.Size(374, 233);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
@@ -82,11 +82,11 @@ namespace Arkanoid
             this.ResumeLayout(false);
         }
 
-        #endregion
-
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Timer timer1;
+
+        #endregion
     }
 }

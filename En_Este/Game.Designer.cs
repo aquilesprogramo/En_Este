@@ -49,6 +49,12 @@ namespace Arkanoid
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -199,12 +205,72 @@ namespace Arkanoid
             this.label14.Text = "5";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.Lime;
+            this.label19.Location = new System.Drawing.Point(42, 25);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(50, 31);
+            this.label19.TabIndex = 20;
+            this.label19.Tag = "block3";
+            // 
+            // label15
+            // 
+            this.label15.BackColor = System.Drawing.Color.Lime;
+            this.label15.Location = new System.Drawing.Point(143, 25);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(53, 31);
+            this.label15.TabIndex = 21;
+            this.label15.Tag = "block3";
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.Lime;
+            this.label16.Location = new System.Drawing.Point(238, 25);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(50, 31);
+            this.label16.TabIndex = 22;
+            this.label16.Tag = "block3";
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.Lime;
+            this.label17.Location = new System.Drawing.Point(342, 25);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(49, 31);
+            this.label17.TabIndex = 23;
+            this.label17.Tag = "block3";
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.Lime;
+            this.label18.Location = new System.Drawing.Point(435, 25);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(52, 31);
+            this.label18.TabIndex = 24;
+            this.label18.Tag = "block3";
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.Lime;
+            this.label20.Location = new System.Drawing.Point(531, 25);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(50, 31);
+            this.label20.TabIndex = 25;
+            this.label20.Tag = "block3";
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(647, 387);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -234,7 +300,13 @@ namespace Arkanoid
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;

@@ -28,6 +28,7 @@ namespace Arkanoid
             {
                 timer1.Enabled = false;
                 Game game = new Game();
+                Hide();
                 game.Show();
             }
         }

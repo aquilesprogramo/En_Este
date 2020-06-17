@@ -34,8 +34,11 @@
     <setting file="file://$PROJECT_DIR$/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Loading.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Loading.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Register.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Login.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Loading.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,8 +59,6 @@
         <option value="$PROJECT_DIR$/OptionUser.Designer.cs" />
         <option value="$PROJECT_DIR$/Login.Designer.cs" />
         <option value="$PROJECT_DIR$/Loading.Designer.cs" />
-        <option value="$PROJECT_DIR$/OptionUser.cs" />
-        <option value="$PROJECT_DIR$/Loading.cs" />
         <option value="$PROJECT_DIR$/ListRecord.cs" />
         <option value="$PROJECT_DIR$/Score.Designer.cs" />
         <option value="$PROJECT_DIR$/Listscore.cs" />
@@ -71,10 +72,12 @@
         <option value="$PROJECT_DIR$/Form1.cs" />
         <option value="$PROJECT_DIR$/User.cs" />
         <option value="$PROJECT_DIR$/Conexion.cs" />
-        <option value="$PROJECT_DIR$/Register.cs" />
         <option value="$PROJECT_DIR$/Login.cs" />
-        <option value="$PROJECT_DIR$/Game.cs" />
         <option value="$PROJECT_DIR$/Score.cs" />
+        <option value="$PROJECT_DIR$/Loading.cs" />
+        <option value="$PROJECT_DIR$/OptionUser.cs" />
+        <option value="$PROJECT_DIR$/Register.cs" />
+        <option value="$PROJECT_DIR$/Game.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +179,7 @@
       <workItem from="1591888247636" duration="292000" />
       <workItem from="1592008113078" duration="597000" />
       <workItem from="1592069582103" duration="1942000" />
-      <workItem from="1592273927221" duration="4723000" />
+      <workItem from="1592273927221" duration="13230000" />
     </task>
     <servers />
   </component>
@@ -200,22 +203,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592277278511">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592370170336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592277278511" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592277278510">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592370170336" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592370170336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592277278510" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592277278510">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592370170336" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592370170336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592277278510" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592277278510">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592370170336" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592370170336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592277278510" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592370170336" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1591069376149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
